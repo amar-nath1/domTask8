@@ -33,3 +33,8 @@ delidf.appendChild(delbtn)
 function deletelistitem(){
     lifirst.remove()
 }
+
+let editbtn=document.createElement('button')
+editbtn.appendChild(document.createTextNode('Edit'))
+editbtn.className='btn btn-primary btn-sm float-right delete'
+delidf.appendChild(editbtn)
